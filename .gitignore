@@ -4,22 +4,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Database files
-*.db
-*.db-journal
-*.sqlite
-*.sqlite3
-
 # Environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
-# Logs
-logs
-*.log
 
 # Runtime data
 pids
@@ -65,20 +55,13 @@ jspm_packages/
 ehthumbs.db
 Thumbs.db
 
-# Generated charts and images
-*.png
-*.jpg
-*.jpeg
-*.gif
-
 # Temporary files
 temp/
 tmp/
 *.tmp
+.history
 
 # Archives (but keep data samples)
 # *.zip
 # *.rar
 # *.tar.gz
-
-.history
